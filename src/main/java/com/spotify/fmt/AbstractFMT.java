@@ -219,7 +219,7 @@ public abstract class AbstractFMT extends AbstractMojo {
       throw new MojoFailureException(message);
     } else {
       getLog()
-          .warn(directoryDisplayName + " directory '" + directory + "' does not exist, ignoring.");
+          .info(directoryDisplayName + " directory '" + directory + "' does not exist, ignoring.");
     }
   }
 
